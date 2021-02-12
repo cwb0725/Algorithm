@@ -237,5 +237,5 @@ if __name__ == '__main__':
     # group_size, generic_times, crossover_probability, mutation_probability, data_num
     opt = Optimization(_group_size, _generic_times, _crossover_probability, _mutation_probability, _data_num)
     r = opt.core()
-    opt.store(r, r"./result.txt")
+    opt.store(r, r"./result/result_txt.txt")
     opt.plot(r)
